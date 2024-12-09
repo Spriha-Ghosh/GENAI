@@ -81,4 +81,8 @@ https://roadmap.sh/ai-engineer
 - On Device AI
 - Time Series
 - Deep and Machine Learning
-- Data Engineering      
+- Data Engineering
+- Convolution Neural Networks
+- NLP with classification and vector spaces
+- Deeplearning AI Tensorflow Developer
+- 
