@@ -1,0 +1,176 @@
+Basic Neural Network
+Artificial Neural Network
+Convolution Neural Network
+Recurrent Neural Network
+Generative Learning
+Reinforcement Learning
+Basic Neural Network
+Biological Neurons Vs Artificial Neurons
+Single Layer Perceptron 
+Multi-Layer Perceptron
+Forward and backward propagation
+Feed-forward neural networks
+Neural Network layers
+Introduction to Activation Function
+Types Of Activation Function
+Activation Functions in Pytorch
+Activation Functions in TensorFlow
+Understanding Activation Functions in Depth
+Artificial Neural Network
+Cost function in neural networks
+How does Gradient Descent work
+Vanishing or Exploding Gradients Problems
+Choose the optimal number of epochs
+Batch Normalization in Deep Learning
+Difference between Sequential and functional API
+Classification
+Classify Handwritten Digits with TensorFlow
+Classify Handwritten Digits with PyTorch
+Regression
+Linear Regression using PyTorch
+Linear Regression Using Tensorflow
+Fine-Tuning & Hyperparameters
+Convolution Neural Network
+Digital Image Processing Basics
+Image Processing
+Pooling layer
+Convolution Neural Networks or convents
+CNN for image classification
+Different CNN architecture
+Pre-trained model for image classification
+Difference between Object Detection and Image Segmentation
+YOLO v2 – Object Detection
+Recurrent Neural Network
+What is time Series Data?
+Natural Language Processing
+Tokenization, Stemming, and Lemmatisation
+Word Embeddings
+Recurrent Neural Network
+Recurrent Neural Network architecture
+Sentiment Analysis using RNN
+Time Series forecasting using RNN
+Short-Term Memory problem in RNN
+Bi-directional RNN architecture
+Long Short Term Memory (LSTM) 
+Introduction to Long Short-Term Memory
+Long Short-Term Memory architecture
+LSTM – Derivation of Backpropagation through time
+Text Generation using LSTM
+Gated Recurrent Unit
+Text Generation using Gated Recurrent Unit Networks
+Generative Learning
+AutoEncoder
+How Autoencoders works
+Types of AutoEncoder
+Linear Autoencoder
+Stacked Autoencoder
+Convolutional Autoencoder
+Recurrent Autoencoder
+Denoising Autoencoder
+Sparse Autoencoder
+Variational AutoEncoder
+Contractive Autoencoder (CAE)
+AutoEncoder with TensorFlow 2.0
+Implementing an Autoencoder in PyTorch
+Generative adversarial networks
+Basics of Generative Adversarial Networks (GANs)
+Generative Adversarial Network (GAN)
+Use Cases of Generative Adversarial Networks
+Building a Generative Adversarial Network using Keras
+Cycle Generative Adversarial Network (CycleGAN)
+StyleGAN – Style Generative Adversarial Networks
+Reinforcement Learning
+Reinforcement Learning Introduction
+Optimizing Rewards in Reinforcement Learning
+Thompson Sampling Reinforcement Learning
+Reinforcement Learning framework 
+Markov Decision Process
+Bellman Equation
+Meta-Learning
+Policy-Based Reinforcement Learning
+Reinforcement Learning with Neural Networks
+Q-Learning
+Q-learning Implementation
+Deep Q Learning
+Deep Q Learning
+Implementing Deep Q-Learning using TensorFlow
+AI-Driven Snake Game using Deep Q Learning
+
+Introduction to Deep Learning
+Introduction to Deep Learning
+Difference Between Artificial Intelligence vs Machine Learning vs Deep Learning
+Basic Neural Network
+Difference between ANN and BNN
+Single Layer Perceptron in TensorFlow
+Multi-Layer Perceptron Learning in Tensorflow
+Deep Neural net with forward and back propagation from scratch - Python
+Understanding Multi-Layer Feed Forward Networks
+List of Deep Learning Layers
+Activation Functions
+Activation Functions
+Types Of Activation Function in ANN
+Activation Functions in Pytorch
+Understanding Activation Functions in Depth
+Artificial Neural Network
+Artificial Neural Networks and its Applications
+Gradient Descent Optimization in Tensorflow
+Choose Optimal Number of Epochs to Train a Neural Network in Keras
+Classification
+Python | Classify Handwritten Digits with Tensorflow
+Train a Deep Learning Model With Pytorch
+Regression
+Linear Regression using PyTorch
+Linear Regression Using Tensorflow
+Hyperparameter tuning
+Hyperparameter tuning
+Introduction to Convolution Neural Network
+Introduction to Convolution Neural Network
+Digital Image Processing Basics
+Difference between Image Processing and Computer Vision
+CNN | Introduction to Pooling Layer
+CIFAR-10 Image Classification in TensorFlow
+Implementation of a CNN based Image Classifier using PyTorch
+Convolutional Neural Network (CNN) Architectures
+Object Detection vs Object Recognition vs Image Segmentation
+YOLO v2 - Object Detection
+Recurrent Neural Network
+Natural Language Processing (NLP) Tutorial
+Introduction to NLTK: Tokenization, Stemming, Lemmatization, POS Tagging
+Word Embeddings in NLP
+Introduction to Recurrent Neural Networks
+Recurrent Neural Networks Explanation
+Sentiment Analysis with an Recurrent Neural Networks (RNN)
+Short term Memory
+What is LSTM - Long Short Term Memory?
+Long Short Term Memory Networks Explanation
+LSTM - Derivation of Back propagation through time
+Text Generation using Recurrent Long Short Term Memory Network
+Gated Recurrent Unit Networks
+Gated Recurrent Unit Networks
+ML | Text Generation using Gated Recurrent Unit Networks
+Generative Learning
+Autoencoders -Machine Learning
+How Autoencoders works ?
+Variational AutoEncoders
+Contractive Autoencoder (CAE)
+ML | AutoEncoder with TensorFlow 2.0
+Implementing an Autoencoder in PyTorch
+Generative adversarial networks
+Basics of Generative Adversarial Networks (GANs)
+Generative Adversarial Network (GAN)
+Use Cases of Generative Adversarial Networks
+Building a Generative Adversarial Network using Keras
+Cycle Generative Adversarial Network (CycleGAN)
+StyleGAN - Style Generative Adversarial Networks
+Reinforcement Learning
+Understanding Reinforcement Learning in-depth
+Introduction to Thompson Sampling | Reinforcement Learning
+Markov Decision Process
+Bellman Equation
+Meta-Learning in Machine Learning
+Q-Learning in Python
+Q-Learning
+ML | Reinforcement Learning Algorithm : Python Implementation using Q-learning
+Deep Q Learning
+Deep Q-Learning
+Implementing Deep Q-Learning using Tensorflow
