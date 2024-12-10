@@ -1,0 +1,173 @@
+- scripts
+
+  - asrlanguagemodeling
+
+   - neural_rescorer
+
+        - create_tarred_transformer_lm_dataset.py
+
+        - eval_neural_rescorer.py
+
+    - ngram_lm
+
+        - eval_beamsearch_ngram.py
+
+        - ken_lmsutils.py
+
+        - train_kenlm.py
+
+ - checkpointaveraging
+
+        - averagingmodel.py
+
+        - checkpointaveraging.py
+
+- datasetprocessing
+
+     - getaishelldata.py
+
+     - getcommonvoicedata.py
+
+     - gethimiadata.py
+
+     - getlibrispeechdata.py
+
+     - get_openslr_rir_data.py
+
+     - scripts/dataset_processing/kaldi2json.py
+
+     - process_aishell2_data.py
+
+     - process_an4_data.py
+
+     - process_degli_data.py
+
+     - process_fisher_data.py
+
+     - process_hub5_data.py
+
+     - process_speech_commands_data.py
+
+     - process_vad_data.py  
+
+- freesounddownloadresample
+
+     - freesoundresample.py
+
+     - freesounddownload.py
+
+- nemolegacyimport
+
+     - asrcheckpointport.py
+
+- neuralmachinetranslation
+
+    - collecttokenizerdatasetstats.py
+
+    - filterlangsnmt.py
+
+    - plotdetailedtimings.py
+
+- nlplanguagemodeling
+
+     - augmenttext.py
+
+     - preprocessdataformegatron.py
+
+- speakertasks
+
+     - pathsfilestomanifest.py
+
+     - scptomanifest.py
+
+- speechrecognition
+
+     - converttotarredaudiodatasets.py
+
+- tokenizers
+
+    - processastexttokenizer.py
+
+- ttsdatasetfiles
+
+- voiceactivitydetection
+
+   - vadoverlapposeterior.py
+
+   - vadtunethreshold.py
+
+   - writelongaudiomanifest.py
+
+- export.py
+
+- tests
+    - collections 
+        - asr
+          - testasrclassificationmodel.py
+          - testasrctcencodermodelbpe.py
+          - testasrctcencdecmodel.py
+          - testasrdatasets.py
+          - testasrexportables.py
+          - testasrfilterbankfeaturesseqlen.py
+          - testasrmetrics.py
+          - testasrmodules.py
+          - testasrregressionmodel.py
+          - testasrrnntencdecmodel.py
+          - testasrrnntencdecmodelbpe.py
+          - testjasperblock.py
+          - testlabeldatasets.py
+          - testspeakerlabelmodels.py
+        - common
+          - init.py
+          - lossinput,py
+          - perplexityinput.py
+          - pl_utils.py
+          - testmetrics.py
+          - testspctokenizer.py
+        - nlp
+          - test_classification_report.py
+          - test_enitity_linking_model.py
+          - test_huggingface.py
+          - testmegatron.py
+          - testnlpexplorables.py
+          - testnlpmodels.py
+          - testpretrainedmodelsperformance.py
+          - testprompttuning.py
+        - tts
+          - testtorchtts.py
+          - testttsdatasets.py
+          - testttsexportables.py
+          - testwaveglow.py
+    - core
+        - init.py
+        - testconfigutils.py
+        - testexpmanager.py
+        - test_fileio.py
+        - testneuraltypes.py
+        - testoptimizersschedulers.py
+        - testsaverestore.py
+        - testserialization.py
+        - testtypecheck.py
+    - core_ptl
+        - checkforranks.py
+    - hydra
+        - config_subdir
+        - config.yaml
+        - config_invalid.yaml
+        - my_app.py
+        - test_hydra_runner.py
+    - nemo_text_processing
+        - de
+        - en
+        - fr
+        - ru
+        - _init_.py
+        - utils.py
+    - _init_.py
+    - check_copyright_header.py
+    - conftest.py
+    - manualtest_model_downloads.py
+    - test_data_dir.py
+
+
+  
