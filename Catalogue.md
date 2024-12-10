@@ -17,7 +17,7 @@ GFG Notes
 - Logistic Regression in Machine Learning
 - K-Nearest Neighbor(KNN) Algorithm
 - One Hot Encoding in Machine Learning
-- Activation functions in Neural Networks
+- Activation functions in Neural Networks | Dropout
 - K means Clustering - Introduction
 - Introduction to Convolution Neural Network
 - Image Resizing using OpenCV | Python
@@ -30,4 +30,109 @@ GFG Notes
 - Hadoop Ecosystem
 - Label Encoding in Python
 - Principal Component Analysis(PCA)
-- 
+- Hadoop - Architecture HDFS(Hdoop Dstributed File System)
+- Set up virtual environment for Python using Anaconda
+- DBSCAN Clustering in ML | Density based clustering
+- Python | Lemmatization with NLTK
+- Association Rule
+- Bagging vs Boosting in Machine Learning
+- Gradient Descent Algorithm in Machine Learning
+- Cross Validation in Machine Learning
+- Singular Value Decomposition (SVD)
+- Residual Networks (ResNet) - Deep Learning
+- Difference between Informed and Uninformed Search in AI
+- SVM GAN
+- Dimensionality Reduction
+- TF-IDF (Term Frequency-Inverse Document Frequency)
+- VGG-16 | CNN model
+- Linear Discriminant Analysis
+- CNN | Pooling Layer
+- ML | Stochastic Gradient Descent (SGD) Batch Gradient Descent
+- Word Embedding using Word2Vec
+- Understanding TF-IDF (Term Frequency-Inverse Document Frequency)
+- Understanding PEAS in Artificial Intelligence
+- Python | Thresholding techniques using OpenCV | Set-1 (Simple Thresholding)
+- XGBoost
+- What is Adam Optimizer?
+- ML - Candidate Elimination Algorithm
+- Hierarchical Clustering 
+-  Q-Learning
+-  Stemming words with NLTK
+- Backpropagation in Neural Network
+- Ordinary Least Squares (OLS)
+- Q-Learning
+- Data Normalization
+- Frequent Pattern Growth Algorithm
+- Multiclass classification using scikit-learn
+- What is Information Retrieval?
+- Multi-Layer Perceptron Learning in Tensorflow
+- ML | Find S Algorithm
+- Feature Engineering: Scaling, Normalization, and Standardization
+- Markov Decision Process | Markov Chain
+- StandardScaler, MinMaxScaler and RobustScaler techniques - ML
+- Understanding of LSTM Networks
+- Explanation of BERT Model - NLP
+- Lasso vs Ridge vs Elastic Net | ML
+- ML | Expectation-Maximization Algorithm
+- What is Perceptron
+- Choose Optimal Number of Epochs to Train a Neural Network in Keras
+- Image Classification using CNN
+- CART (Classification And Regression Tree) in Machine Learning
+- A Beginners Guide To Streamlit
+- Keras.Conv2D Class
+- Boosting in Machine Learning | Boosting and AdaBoost
+- SciPy | Curve Fitting
+- ML | Monte Carlo Tree Search (MCTS)
+- Named Entity Recognition
+- Feature Selection Techniques in Machine Learning
+-  Gradient Boosting
+-  Ensemble Classifier | Data Mining
+-  OpenAI Python API - Complete Guide
+-  Constraint Satisfaction Problems (CSP) in Artificial Intelligence
+-  AO* algorithm in Artificial intelligence (AI)
+-  Stratified K Fold Cross Validation
+-  Autoencoders
+-  Hidden Markov Model in Machine learning
+-  AUC ROC Curve in Machine Learning
+-  How to use Google Colab
+-  LightGBM (Light Gradient Boosting Machine)
+-  Difference between Parametric and Non-Parametric Methods
+-  POS(Parts-Of-Speech) Tagging in NLP
+-  CNN | Introduction to Padding
+-  Bag of words (BoW) model in NLP
+-  N-Gram Language Modelling with NLTK
+-  CUDA Tutorial
+-  Z score for Outlier Detection - Python
+-  Gated Recurrent Unit Networks
+-  ML | Mini-Batch Gradient Descent with Python
+-  U-Net Architecture Explained
+-  Devin AI: World’s First AI Software Engineer
+-  KDE Plot Visualization with Pandas and Seaborn
+-  How to set up and Run CUDA Operations in Pytorch ?
+-  Chatbots Using Python and Rasa
+-  SARSA Reinforcement Learning
+-  Collaborative Filtering in Machine Learning
+-  Single Layer Perceptron in TensorFlow
+-  Weighted K-NN
+-  Python | Face recognition using GUI
+-  ML | Fuzzy Clustering | Fuzzy Logic Control System
+-  Spectral CLustering Edge Detection
+- CIFAR-10 Image Classification in TensorFlow
+- Python | Data Augmentation
+- How to Check if Tensorflow is Using GPU
+- Region and Edge Based Segmentation
+- ML | BIRCH Clustering
+- YOLO : You Only Look Once - Real Time Object Detection
+- Feature encoding
+- Object Detection vs Object Recognition vs Image Segmentation
+- seq2seq Model in Machine Learning
+- MIsc- SIFT Lasso Regression FaceNet ChiSqure test |Catboost | R CNN
+- Image Segmentation with Watershed Algorithm | Thresholding Based
+- Apache Kafka | Introduction
+- Overview of ROBERTa model
+-  Best-First Search and A* Search
+-  AdaBoost Algorithm
+-  AutoCorrelation
+-  Elastic Load Balancer in AWS
+-  NLP vs NLU vs NLG
+-  
