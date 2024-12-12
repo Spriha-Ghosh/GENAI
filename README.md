@@ -1,3 +1,5 @@
+HYDRA_FULL_ERROR=1 python intent_slot_classification.py --config-path conf/config --config-name intent_slot_classification_config.yaml
+
 - https://turing.com/kb/natural-language-processing-function-in-ai
 - https://spacy.io/usage/processing-pipelines
 - https://www.analyticsvidhya.com/blog/2022/06/an-end-to-end-guide-on-nlp-pipeline/
@@ -7,6 +9,11 @@
 - https://cloud.google.com/natural-language
 - https://www.ibm.com/topics
 - https://roadmap.sh/ai-engineer
+- https://docs.nvidia.com/megatron-core/developer-guide/latest/index.html
+- https://catalog.ngc.nvidia.com/?filters=&orderBy=weightPopularDESC&query=&page=&pageSize=
+- https://developers.google.com/s/results/machine-learning/?q=Natural%20Language
+- https://aws.amazon.com/ai/generative-ai/
+- https://ai.meta.com/blog/when-to-fine-tune-llms-vs-other-techniques/
 
 - LLMOps MLOps
       - LLMs as Operating Systems: Agent Memory
