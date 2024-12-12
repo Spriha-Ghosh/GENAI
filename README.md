@@ -14,6 +14,8 @@ HYDRA_FULL_ERROR=1 python intent_slot_classification.py --config-path conf/confi
 - https://developers.google.com/s/results/machine-learning/?q=Natural%20Language
 - https://aws.amazon.com/ai/generative-ai/
 - https://ai.meta.com/blog/when-to-fine-tune-llms-vs-other-techniques/
+- https://colab.research.google.com/github/NVIDIA/NeMo/blob/r1.0.0rc1/tutorials/nlp/Relation_Extraction-BioMegatron.ipynb#scrollTo=knF6QeQQdMrH
+- https://colab.research.google.com/github/GoogleCloudPlatform/vertex-ai-samples/blob/main/notebooks/community/ml_ops/stage6/get_started_with_nvidia_triton_serving.ipynb#scrollTo=7326e903d212
 
 - LLMOps MLOps
       - LLMs as Operating Systems: Agent Memory
