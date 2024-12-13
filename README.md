@@ -16,6 +16,13 @@ HYDRA_FULL_ERROR=1 python intent_slot_classification.py --config-path conf/confi
 - https://ai.meta.com/blog/when-to-fine-tune-llms-vs-other-techniques/
 - https://colab.research.google.com/github/NVIDIA/NeMo/blob/r1.0.0rc1/tutorials/nlp/Relation_Extraction-BioMegatron.ipynb#scrollTo=knF6QeQQdMrH
 - https://colab.research.google.com/github/GoogleCloudPlatform/vertex-ai-samples/blob/main/notebooks/community/ml_ops/stage6/get_started_with_nvidia_triton_serving.ipynb#scrollTo=7326e903d212
+- https://learn.microsoft.com/en-us/training/browse/?resource_type=learning%20path&expanded=data-ai&subjects=artificial-intelligence
+- https://www.kdnuggets.com/tag/natural-language-processing
+- https://colab.research.google.com/github/cleanlab/cleanlab-tools/blob/master/few_shot_prompt_selection/few_shot_prompt_selection.ipynb#scrollTo=e7da26fe
+- https://colab.research.google.com/github/brevdev/notebooks/blob/main/mistral-finetune-own-data.ipynb#scrollTo=FuXIFTFapAMI
+- https://colab.research.google.com/github/phlippe/uvadlc_notebooks/blob/master/docs/tutorial_notebooks/tutorial6/Transformers_and_MHAttention.ipynb#scrollTo=IjcflifmeKTE
+- https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/BERT/Custom_Named_Entity_Recognition_with_BERT_only_first_wordpiece.ipynb#scrollTo=GLFivpkwW1HY
+- https://colab.research.google.com/github/GoogleCloudPlatform/generative-ai/blob/main/gemini/use-cases/data-augmentation/data_augmentation_for_text.ipynb
 
 - LLMOps MLOps
       - LLMs as Operating Systems: Agent Memory
