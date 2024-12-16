@@ -23,6 +23,7 @@ HYDRA_FULL_ERROR=1 python intent_slot_classification.py --config-path conf/confi
 - https://colab.research.google.com/github/phlippe/uvadlc_notebooks/blob/master/docs/tutorial_notebooks/tutorial6/Transformers_and_MHAttention.ipynb#scrollTo=IjcflifmeKTE
 - https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/BERT/Custom_Named_Entity_Recognition_with_BERT_only_first_wordpiece.ipynb#scrollTo=GLFivpkwW1HY
 - https://colab.research.google.com/github/GoogleCloudPlatform/generative-ai/blob/main/gemini/use-cases/data-augmentation/data_augmentation_for_text.ipynb
+- https://lightning.ai/lightning-ai/studios/generate-synthetic-data-for-rag-evaluation?section=featured
 
 - LLMOps MLOps
       - LLMs as Operating Systems: Agent Memory
