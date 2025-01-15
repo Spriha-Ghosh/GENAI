@@ -1,0 +1,708 @@
+Long Form
+https://www.exampro.co/exp-genai-01
+
+hey it's Andrew Brown and welcome to the free generative AI Essentials course the purpose of this course is to give you
+comprehensive knowledge so that you can go and start building generative AI applications and in particular this is
+the prerequisite course for my free gen boot camp where we actually go out and build real projects so I hope you're as
+excited as I am and you're able to get as as through much of this content uh so you can go build projects with me and I
+will see you soon okay [Music]
+hey everyone it's Andrew Brown and welcome to the start of our journey asking the most important question which is first which is what is the
+genis uh genis gen Essentials certification so this is a practical gen
+certification teaching you the fundamental concepts of ml AI gen all modalities of gen with a strong focus on
+llms programmatically working with J workloads uh both with cloud and local l
+M and it is a cloud vendor agnostic approach so there are other geni
+certifications out there it us has one Azure has one Nvidia has one and you know what I've made courses for them all
+and they're okay but they're very very specific to those vendors and they leave out huge huge gaps and they have all
+these expectations of what you should already know in order to um uh uh to
+start building with Gen and so the purpose I made this gen Essentials course is so that you have
+round uh round and Broad knowledge so that you can be successful in any area
+of gen no matter the technical choice and to me that is super super important I'm going to get my head out of the way
+here so the course code for the exam Pro gen Essentials is exp geni I do want
+to point out that this course I kind of feel as like a beta course at this point and so I'm hoping at some point I will
+release a version and include all of the information that I want to actually
+include in this course course it's still really good comparative to other certifications it'll definitely blow it
+out of the water but I you know I just want to say that the release of this course will have some gaps and they will
+be addressed in minor updates as we receive feedback so pay attention to updates or upcoming road maps um for
+this content because this is not a oneandone course we're going to have to come back to it and continuously update
+it because gen is moving very very quickly okay but let's continue on so
+who's the certification for we'll consider the examp Pro gen Essentials if you are preparing for the preit
+knowledge to take the free gen boot camp so you can be successful in its completion and Grading for my boot camps
+we go and we build we hit the ground running and so my expectation is that you can code you have General
+familiarity with the stuff you have uh knowledge under you so this thing is going to prepare you if you do not take
+this course before my free gen boot camp you're going to be struggling a little bit uh you can still do the free gen
+boot camp but um you if you want to maximize uh uh how much you learn please
+please please go through this course um and it's going to help you out okay uh another reason you should
+consider taking the uh exam Pro gen Essentials if you need Broad and practical knowledge understanding gen
+Solutions so you have the technical flexibility to move in any technical Direction right now geni we don't know
+what direction it's going do you use cloud services do you do local local LMS should you be fine tuning should you be using rag um how much does it cost how
+do you secure it there's so many questions um that uh that that need to
+be answered and this is my explo exploration think of it like a CTO
+trying to explore and evaluate for for the company I'm coming back to you with all that information so that you can make informed decisions and have
+confidence building with jny so I'm hoping that's what I achieve throughout this course you need to focus on
+implementation deliver gen workloads that are both secure and in budget at the end of the day we got to build
+things for people that's why we're learning gen to apply the knowledge and so that's what I want to do I generally
+focus on implementation and development because I have a developer background I think it's fun building things um and so
+you're going to see a lot of Hands-On in this course whether you can do it or not is a different story if you find that
+the the Hands-On stuff is beyond your knowledge just watch the videos and and absorb the information you can this is
+all about getting you exposure to the the the most amount of knowledge and and the shortest amount of time if you
+cannot do the things do not stress out about it okay uh let's continue on here so we're looking at the Gen road map so
+there's this certification course which is going to give you confidence and understanding talking about J and having
+the tools to get started building okay um and that is going to be based on the
+exam Pro gen maturity learning model which we'll look at in a separate video um the followup to this gen centrals
+course is the Project based boot camp which is called the free gen boot camp this will give you proof that you can
+build gen workloads through Hands-On projects which will be at gen. Cloud proo bootcamp.com
+register if you have yet to do so go register now even if you don't finish
+this gen essential course you can absolutely register this is an optional course to prepare you so it's up to you
+what you want to do um but I I strongly recommend you go through this course if you can but still you know if you don't
+have the time but you do have time for the boot camp sign up for the boot camp and be there um how long does it take to
+study to pass this exam well we have between hours and hours if you are experienced you have some other geni
+certifications you're going to have an easy time through this but you are also going to benefit because there's going to be a lot of stuff that you didn't see
+if you took the adabs Gen practitioner you're going to be really surprised ads AI practitioner you're going to be
+really surprised how much stuff that we covered that you didn't see anywhere else same thing with the Azure AI engineer associate you'll be really
+surprised how much stuff we cover in this that uh I could not cover in those other ones because they're out of scope
+but they're not out of scope here we're covering all of gen in this course um so
+yeah if you uh yeah so if you are experienced hours if you're a beginner you're looking at hours what
+is the average study time I could not tell you for this one because we don't have enough data at this point but I do feel that this is more a lecture and lab
+heavy practice exams are not going to be your main focus as the exam itself is
+not difficult it's just there to evaluate your knowledge that's why we have um this optional certification step I do
+want to tell you that if you want to get certified to earn this badge you do have to pay for it uh I I don't know what the
+cost is in this video but I know that it's not a high cost to to get it if you if you want if you are just gaining the
+knowledge to take the boot camp still do this course okay but if you want that extra badge to to show off you can um
+also do that by um paying for that that certification uh the recommended study
+time here is to two hours a day for days what does it take to pass exam watch the lectures do the Hands-On lab
+and again I want to point out that we are working with so many different Technologies there's going to be areas where you you might not have an account
+you might like okay I want to learn this but I don't really like Azure so I'll just watch the video that's totally fine
+or there might be uh things where you actually need Hardware to run it and so you know maybe you need a Windows
+machine or a Mac or a Linux machine and you don't have that thing or you need a certain amount of compute that's totally
+fine just watch and and do the best you can but where you can do things go do it
+and there's a lot of free Solutions and we try to focus as much on free Solutions as possible uh so yeah just do
+your best okay um do uh paid online practice exams
+that's just kind of something we always throw in there for this course we have a free practice exam there's no other providers because this is a an exam made
+by us at this point so we will have a free practice exam so you'll have one shot to do that and then you can pay to
+do the uh the exam that gets you the certification okay so it's up to you
+that's going to be at at www. exampro doco jso sign up to get your free
+practice exam over there for grading uh the passing score is above points so
+you need around % to pass you can fail by getting exactly % it just depends
+on how many um um uh questions there are
+because they don't always split perfectly and so you always want to aim above that score okay for response types
+there are questions scored questions you can afford to get scored uh questions wrong there are no
+unscored questions other exams do that I don't do that in my exams I I think it's just stressful I think people would
+rather just know exactly what they are getting and do that there are no penalty for wrong questions the format of
+questions is multiple choice multiple answer case studies case studies can be worth more than a single point so the
+distribution isn't perfectly like one point per question uh in case studies are more complex um um but uh you know
+there's not that many so I wouldn't stress out about it okay um the duration is hours you get two minutes per
+question the exam time is minutes the seat time is minutes I believe that is correct yep yep yep yep um and
+so the the SE time refers to the amount of time that you should allocate for this exam this includes the time review
+instructions Show online Proctor uh Proctor your Works Space read accept NDA complete the exam provide feedback at
+the end where do you take the exam online from the conveni of your own home exam Pro delivers the exam via teacher
+seat anchor so I don't think people know this but we actually have our own Proctor system um now the question is
+what format will it show up uh for this because we have an external portal and then we have one that's integrated I
+don't know what's set up for this I might make an additional video that's only in the platform that you'd have to watch to understand how to take the exam
+so just look out for that um but it shouldn't be too difficult but yeah it's all exam Pro so the place where you
+consume the course if if you're on YouTube and you go to exam Pro and sign up for for free you can then figure out
+from that portal where to take the exam and so hopefully that will make sense there uh Proctor means that it's super
+it has a supervisor a person who monitors the student uh students during the examination our Proctor system is a
+little bit different whereas uh we might capture the information and then audit it later so it's not always a live
+Proctor but like uh it will be it will capture information and then it'll be an audit audit period And if everything's
+fine then we will release the course out to you um but yeah we we'll see how things go for that okay um this exam is
+valid till well it's forever because it's just how it works um other certifications what they do is they'll
+say good for two to three years and get recertified um it's not like we have a partner Network here so there's no
+forcing of uh uh recertification but if there is a major update you might want
+to consider getting recertified because there is just new knowledge there so I mean the certification holds for as long
+as there are no new versions um and that's pretty much it so yeah hopefully that is clear we didn't do an exam guide
+breakdown I'm going to do that in a separate video but we are going to look at that maturity model here shortly
+[Music] okay hey everyone it's Andrew Brown and
+I'm joined here with uh Rola um and so we are going to be working our way
+through the geni road map I believe earlier in the uh introduction I described this as a maturity model um
+and so originally This was um very very detailed um uh flowchart or road map
+that Rola had produced along with um oh Don Don and so I I took it and I I
+mangled it or I should say I reorganize it into what I call a maturity model where the idea is that we can step
+through it and have a way of understanding where we might be in our journey in terms of a gen road map by no
+means is this an exhaustive list there is so much in gen but I'm hoping that um for those that are are starting to try
+to understand gen that this will become a a way for you to understand it and
+then once you have that core knowledge then you can be introduced to uh something that is a little bit more complex or robust and so what I want to
+do here is I want to work uh walk through with this uh with rollup and um
+just confirm that uh we have a good scope of learning here in terms of the course that is that is here not
+everything is included in the course just because of um the strict time limit I had to produce this course but I still
+want everyone to see what the scope of what I think people should learn and so we'll start at the top and actually we
+do have a lot of content um in the course that is not in the ml introduction but I think that if you're
+going to learn generative AI you probably need to have some understanding of machine learning R do you think you
+can skip it or you or you think it's an absolute necessity to have some basics of ml I think it depends on what you
+want to do if you want to be just a practitioner who sets up a single system
+maybe you can skip it but if you want to stay in the field um You probably need
+some understanding of the bigger picture and you know I think with lots of things you can get away with with not knowing
+for uh for a while but at some point you will have to learn it and uh sometimes
+it's better to learn something earlier on than to uh push it back later I don't think a lot of these things are that
+hard like vectors and embeddings or um I mean at first they seem very intimidating like like seeing the
+transform architecture and all those moving Parts but I think there's a lot of content out there that does break it down into smaller smaller parts and um
+uh I would just say it's like you don't you don't have to be a mathematician to to fully understand the basics of the ml
+um and you don't need to be a car mechanic to use a car right you if you want to rent car and use it once that's
+great but if you're going to use it every day if it breaks down you need to know where to look right um and also
+those who that are watching we're both a bit tired because yesterday was New Year's uh New Year's Eve and so I was
+passed up uh past past U midnight and I think Rola as well uh so just understand
+our energy levels are are high in our in our minds but um but anyway so after you
+learn machine uh some basics of machine learning I think that's that's a good a good basis to now come into generative
+AI um obviously I think that a lot of a lot of people are interested in agents I think that's what's talked about a lot
+these days at least in what I hear when we talk about gen um so you know there
+are some things uh like agentic workflows and agentic coding it's a bit odd that I put them here because these
+are very Advanced topics but I put them in here early just because I know people want to know about them and talk about
+them and so it was more so to dive into these things in deep but more just to
+tell people yeah this is the angle of where you might want to want to go go if
+that makes sense um obviously responsible AI is maybe a higher priority for folks I'm not sure uh what
+could go in here but even though this this part looks really small basically the Gen introduction is is more so like
+uh I don't know like this part here um but yeah that's what I have for the geni
+but I think um one thing that is uh really interesting is the modalities of
+generative AI um and I think that a lot of folks just focus on text generation llms but there is this whole skew of(15:32)
+16: 20 roadmap
+things video generation D Generation image generation audio generation are there any more types of generations that
+I'm missing out on there Rolla um I think there's a bunch on protein and DNA which I mean they can
+look like they're text but they're specialized types of text um there's a lot to do with protein uh folding and
+things like that that also been used in gen so there's a few very Niche um
+topics but these are the main ones I think text image video audio D yeah
+those are the main but there are Niche uh topics that have to do with
+health science or very specific uh Fields well it's a bit it's a bit tricky
+there because like you look at images and videos and and video is just a series of images or you have D and D
+uh or D files and they're just uh vertices and and text files but yeah I
+guess there are specialized ones and that's the thing as I don't know of anything beyond as you said like things
+in um the health scien Health Sciences if there's anything else that we would consider a modality but these are the
+main ones one thing that's kind of really hard to figure out is like if you have video to video or uh image text to
+image is it the modality of text or video based on if it has one or the
+other the way I I put them in is like if it outputs that thing that I put it into that modality but I don't sure if we
+have to think about it in such clear-cut binary way of thinking these type of um
+uh inputs outputs for these different types of models no and I think we put them there
+initially to to just given people the idea that there is a lot Beyond just text generation right there's a whole
+slew of things happening and what usually happens is if you look at a model card if you're looking for something specific and you look at a
+model card they will tell you what the input and out to that model is and you look for something very specific so I
+think it's just enough to know that other modalities exist both in input and output and that you can find uh a model
+that suits the input output combination that you are interested in and I think
+that since the creation of this um uh this flowchart actually there's been an explosion of video generation tools that
+I can't even name them all so that's why I'm kind of hesitant to put uh put names here I mean whisper is still hanging
+around for audio generation but uh yeah for video there's everybody has one right now um and so I don't know it just
+kind of shows like how fast things are moving even in a few months like there'll be just an explosion of models um in those areas but when you know the
+basis of these things but if you know video to video you know what video to video is right uh
+at least at a high level of what that means because underneath that could mean something completely else and it's
+moving very fast I think all of the all of the most of the things that we've seen in the public eye are about two years years old at the moment so
+whenever you read an article on gen or something notice the date because things
+get outdated very fast well it's also really hard to figure out what to
+include practically because um as I'm doing stuff everyone's like oh use that did you hear of this constantly did you
+hear this did you hear that and I'm just opening these things and going well which is relevant and which is not but I think that um even if you do use a tool
+that might become dated I think that there are things that are always going to be in that realm of that kind of
+stuff and so it's not fully wasted information you just kind of have to move as quick as you can and you're going to have to expect that uh things
+are going to be uh the floor is going to be moving uh moving around on you all the time yeah for text generation text
+to XX single turn multi- turn I have multimodel multimodal multimodel a lot
+of terms that seem very similar now we're into LM Basics which is still a generative AI a lot of stuff here we
+have a repeat of ethics and bias because we have resp responsible which have some overlap um and so you know looking into
+LMS probably the most important thing is understanding I don't know like tokenization aony of appr prompt um I'm
+not sure what else there is there but yeah if you fundamentally understand I think like what a context window is uh
+and what it can do then you have a lot of power just with llms there um we have
+it we're like I'm supposed to have a section on prompt engineering down here and even this I didn't do all of the videos but I realized that as was making
+some of the content here I subconsciously was utilizing some prompt engineering techniques that I wasn't
+aware of and I don't I'm not sure how much value there is to like learning every possible prompt engineer technique
+because there's walls and walls of of possible ways that you can do things but it is really interesting that um uh you
+know if you just are you just have an idea of creatively how you can feed stuff into prompt engineering that you
+might implicitly be uh doing them uh how much do you keep on top of prompt engineering techniques do you feel that
+it's worth going learning all of them or no no I don't I mean things are
+going to keep changing I think the the main things that have shown promise are good to know and those are usually a
+handful of things right and we can talk about them in the course I think understanding the anatomy of the prompt
+is really important that's what's going to allow you to understand um you know
+what you can do and and how that affects the model I think that's very important but you know um there there's going to
+be a lot of papers and a lot of um understanding of things as they come I don't think they all move the needle in
+huge ways uh those the do you'll hear about but I think those are a handful you don't need to know all 
+no uh in terms of AI power assistance I feel like that's one of the the first entry points that a lot of people have
+with um uh uh generative AI but you know what when it came to these videos I
+didn't have much to say because they're all kind of the same um and and there's not that much functionality built around
+them now some some AI par assistant have some bells and whistles uh like Claude
+has the idea of projects or chat PT has that really cool voice feature or Google
+Gemini they supposedly can process larger types of PDFs and the way they do it is special and um actually I think AI
+I don't know they have or AI technically has an AI power assistant but some of these things here they're
+not intended to even act as AI power assistants they're just there as demonstrations so like when you go to meta or mistol I don't think you're
+supposed to use them as your day-to-day AI part assistance it's supp it's mostly just to show you a means to do that um
+but you know with with your level of knowledge do you use AI power Assistance or or do you do you roll your own so to
+speak um um I tend to like to do things
+my way but because I trust my own systems uh I we do we do rely on
+anthropic CLA quite a bit uh my team uses a lot of cursor for coding and things like that uh my main issue is
+the the probability I would like to understand what how good what the
+probability confidence in any particular responses which right now okay yeah
+right now it doesn't tell you right it just gives you an answer know yeah I never thought about that yeah so but I
+guess like when you're using uh uh models direct directly would they give you probability or or would you
+have to do some uh some uh post calculation to get that in predictive AI most models give you some sort of
+probability of confidence some sort of measure of how well it thinks it
+did but that's that's but we were talking about just general models like any kind of ml model is that what you're
+saying but with LMS would they have to would they also explicitly return them as well or no so uh most llms do not
+because they're ating sequences word after word they do not tell you what
+the what the models um how well the model thinks it did but
+in other probably if you're doing a classification for example it would tell you um so I guess that's a good thing it's a
+good thing that you said there because uh when we talk about um llms you have to everyone talks about having uh
+evaluations right but is it because the nature of LMS makes it hard for it to
+produce that number so you have to have an additional step whereas when you're using a classical machine learning model
+it's producing a single value and then it can also give you the probability back at the same time kind of so in
+predictive machine learning traditionally it was very task specific so you trained it on a very specific
+task and so it learned that task and it gave you some sort of metric of its performance on that result now
+generative AI tends to be and foundational model llms tend to be more um their general purpose so they can do
+a lot more things and they can do different types of things beyond the things that they were um trained to do
+that's where all these evaluation metrics come in is is if you see and we talked about this at some point um is
+they would tell you what how does it Benchmark on coding how does it Benchmark on reasoning how does it Benchmark on accuracy um because they
+they they can do a lot more things than we train them on because they're very very large models and so there's
+emergent properties that come with that um and
+so I'm just going to iterate here that AI power assistance is I think where a lot of people uh start learning it but
+uh what happens is that when you're using AI power assistance you find out that it doesn't have a programmatic way
+for you to start implementing it for your own Solutions and you know the purpose of this course is to show folks
+how to go beyond the AI power assistance of course you can leverage this course to do the best that you can do with a
+powered assistance but um you really want to move Beyond in this kind of part here I almost I feel that I should have
+a little line here because this is where the real story starts right after oops that's not what I wanted but if I can uh
+get this open here it's not I don't know how to get my shapes here's my shapes but I feel that right here uh yeah if I
+if I was to draw a line right here this is where things start to get serious it's obviously an arrow not a line um
+and this is where you start get into workbenches and playgrounds surpris techically I showed where all the workbenches were and playgrounds were in
+these various Solutions but I didn't really use them I just skipped right over to code because there's not much to talk about they're they look a lot like
+a assistance they do have more uh knobs uh knobs to turn like uh what top K and
+temperature and things like that once you learn one they all kind of feel very similar but uh some of them will have
+interfaces to their extended uh extended functionality so like if you're using a
+CO here they would have a little box for the response format for Json if you're
+in um uh anthropic uh then if you want to do tool use you could do that in
+place and some of them will generate at the code for you so you can start utilizing them and sometimes they gener
+out good code I can't say they always do I think in some of them they're actually producing older code I'm actually really
+surprised um with how many AI Services uh like they'll have a version
+to uh API and and then their main service that Jour toota is still doing version one uh and it almost kind of
+feels like uh these companies kind of even keep up with their own their own changes which is really surprising um
+but I'm not sure what your experience is about um documentation and how how
+accurate it reflects the current versions of things usually they're they're behind I think part of it is the
+the speed of things but also I think part of it is cost right the the older mod model is likely smaller and it's
+likely cheaper uh and so some some of it is cost um so you know once you start
+working with things programmatically at least in this way before you even start writing code you might start to think about what kind of models you want to
+use and there's all kinds of models out there there's foundational models we have models that are fine- tune which
+technically Foundation models are fine tune models models that are instruct models we have embed models we have open
+source models we have Edge optimized models or we could call them slm small
+language models or we could call them on device models or we could call them something else there's a lot of names
+for this one in particular um and then we have uncensored or you could say
+unrestricted I don't know the word uncensored doesn't sound good but unrestricted models uh and we have a lot
+of models why do we have so many darn models um so I think these are all
+different terminologies to um to describe different metadata
+about the models so open you know open source models are models where the weights are open um plus the data plus
+the code open weight models are models where the weights are open but not the data and the code so each word descri
+each term describes a very specific scenario so Edge optimized models are usually smaller models that
+you could put on your phones and Edge devices as opposed to the larger models that need a server so because there's so
+many different um ways that you could use these things you
+have to have words to describe the different situations I guess and I think there's probably a lot
+more open weight models than there are open source models um there might be a
+bit of a confusion between that because I always think like I like this is open source model like but is it I mean I can download the weights and I can do things
+with it but I don't really know how they've trained it um one model mistol and um
+uh meta tend to be open weight models but they're not open source models so the data and the code that generated the
+models are not there um open Ai and uh is is a closed
+model and anthropic is a closed model um yeah so there's different ways in which
+these things are released allowing people different types of control um and that's where the the
+naming comes in and and I like if people are watching here yes I'm updating the
+this as we go because that's how it is you collect information and you you find new ways of organizing it uh I know of
+of one open source model that I can that I can always remember which is IBM Granite because they say that their
+model is truly open source and and by that they mean like you even know what data was sourced to train the model um
+so it's really interesting the different levels of things there we have models of service so I think this is probably one
+of the easiest ways to start working with llms um and and some other modalities uh where they provide a a
+unified API to access to multiple different models um and so Google Amazon
+Azure and Alibaba all have them actually I haven't tried Alibaba yet I just know
+that they have it and I was I was I I said I was goingon to go use Alibaba I never did um is there any other ones
+that are out there the only other ones that I can think of that are models of service is grock
+grq for those that are listening there's a lot of GRS um in the AI space and it
+gets a bit confusing but that one was amazing however um they don't have a
+paid a paid tier so like you can use it and it's super fast and it's only for open source models but um uh they don't
+have a a payment plan so you can't even utilize for production they do have a
+business plan but um it's a bit hard to get in there and so once we're done with models of service now it's time to get
+serious and we're actually looking at um out like some of these are cloud
+services but now we're getting into a very serious um development and this could involve actually downloading
+models to your computer or uh using uh best-in-class thirdparty cloud services
+and so this is not exactly organized the same way as the course but now we are into Dev tools and workflows and so
+something that folks probably should know about Is the Gen life cycle l mops these are Concepts that sound very
+similar in the cloud space when we talk about I don't know the development life cycle and devops but um they can be
+applied there as well and then there's just some core developer tools that I think that people are always going to come across like I'm on hugging face
+hugging face all the time it's like the GitHub of the AIML world I was surprised
+that I I used AMA more than I thought um uh do you ever touch Ama or is it um
+it's not for you Rola I have but I I know people love it it's it's open
+source there's a lot it's a lot more open than a lot of other systems so people like it I haven't personally
+played too much with it but I I don't even
+remember I don't even remember what LMS is I'm not even sure what that is but it's in there uh so I can't remember
+that must have been something at one point but now I don't know what it is almost tempted to delete it we got llama file Lang chain llama index these two
+things were things that I heard a lot about early on when I was I was learning about generative Ai and I actually ended
+up once I started gaining so much knowledge I don't even touch them at all now I don't even think I even bothered to teach them because even though they
+were uh I think they're actually really good as a as a learning tool um I just found that uh the the promise of what
+they were supposed to provide was to give you an opinionated framework so you could rapidly prototype things but uh
+because this space again has mve so quickly um a lot of the documentation was out of dat or The implementations
+Underneath didn't really live up to the promise um do you use any kind of um
+orchestrational uh services or uh Frameworks for rapidly building out llms
+or or like agents or workloads or what do you do so our team usually uses
+sometimes Lang chain um and guardio to create very fast prototypes um but like
+you said everything's catching up so even Bedrock we use a lot of AWS bedrock and now they can you can do a lot of
+these things natively in Bedrock now you can do a lot of workflows and and model changings and so on which uh you know
+they they were quite you know some of the first tools that came out but now a lot of things are catching up like you
+said well yeah and and it's it's really surprising like how robust Amazon bedrocks coming on the Azure side they
+were they were leveraging open AI but now they have their own generic one like Amazon Bedrock um I don't not sure why I
+put gml over here I mean they it's by the same creator gml and ggf um but uh llama CPP that's something
+I just want to do more with because it sounds so awesome but um and it comes up a lot but I I I didn't get to spend too
+much time there with it um and Onyx is something I again I I really wish I had
+time to talk about that more because that came up a lot um for compatibility
+for model weights uh I try to remember what it does it's it's a file format it's like is it like ggf but a different
+file for you remember what Onyx Onyx is in particular no I'm not sure actually so
+this one here um I remember it's
+a this is for interop interoperability um and that's the idea
+of um kind of using the same formats or the same
+um the way you encode the the models and all of that in the same way so that you
+can actually exchange use the same systems across different models and across
+different providers and so on um I know a lot about interoperability from healthcare because everybody does what
+they want and it's a becomes a headache which is where the space in AI is as well right every provider um releases in
+whatever encoding they want and tokenizer they want and they encode on disk the way they want and so that uh
+makes it a bit hard to um kind of use the similar systems across models and across so that that's
+great yeah it's definitely an interesting topping it it would make life easier for everybody if we have
+certain uh Common Grounds see see I knew you knew it because as soon as I opened it up it
+took you two seconds to know what it was um app prototyping i' I like I come from
+a developer background so for me I I really enjoy AI code code assistance and
+app prototyping and this course we covered Streamlight gradio I think we did Fast HTML uh vzero and lovable
+there's actually a few other ones that that I had covered as well um and then on the other side we have ai code
+assistance so we Amazon Q developer I I did cover that one GitHub co-pilot
+Gemini code assist codium cursor um and these things are actually this one has codium in Wind surf now which uh I would
+say I really like wind surf but again you know things change every other day
+um and uh it's just neck and neck these these tools are changing and so having general knowledge about the tools and
+not really being focused on just one thing with conception understanding is going to just make your technical path a
+lot easier because you're not never going to be left behind uh and you basically are just jumping ship constantly to new tools but it's not
+that big of a deal except when every tool cost $then then you have to decide decide
+which one you're going to unsubscribe to I put extra emphasis in this course on setting up the developer environment I
+found that this was um one of the largest challenges with working with local models understanding how to set up
+cond uh installing Docker containers uh pulling containers uh setting up Jupiter
+a Jupiter server because that's a very com a common way um and I was actually really surprised on how many free
+(37:39) 
+options there are right now to learn I think a lot of people think that uh well it is expensive to run models but a lot
+of people think that it's that it's too prohibitively expensive to learn gen but
+I is just blown away by how many resources are right now um as every
+company is putting out their own Kool-Aid for you to drink that they really want you to uh buy into it and
+I'm sure at some point that this will change as as the um uh the space matures
+and everybody understands that but right now is like the best time to learn because there's so many free free
+resources it's unbelievable um but uh would you do you agree or would you say do you think do
+you see a lot of a lot of free learning opportunities right now or like with I do I think there's a lot from from all
+the big providers AWS gcp uh hugging face has a lot of things
+there's a lot from a lot of different resources all small startups as well I think there's always great resources um
+it's a matter of time I think and commitment well even like in hugging face they have all these projects
+running here and you open it up and they have something called like um uh something zero it's and I don't know
+what it is but it's it's like some kind of compute that is distributed that allows you to run anything this is not
+exact the one I meant to click on but it's just very interesting that there are so many of these things running and
+I'm just like how do they how do they have the money for all these for all this compute but they do and it's not
+showing the name of it's called gor something or um something but um uh yeah
+it's just it's just really interesting one part that's a little bit hard for me to cover is ji security I'm not sure if
+it's because things are still emerging we do have a few friends on the security side that are going to help us out at
+some point to um expand on this but I imagine that this is uh rapidly changing
+to match uh the needs of of this expanding Market um of course learning
+how to work with containers I think is very very valuable there's a few different solutions not just open AI Opa
+but uh Nvidia has one called Nvidia workbench um I I would just say like there's not I
+haven't seen much tooling around containers and ks and when I've talked to folks in the kubernetes uh or Cloud
+native Community they're all like I know containers really well but I don't know anything about J and I'm like but you
+know containers right um and I think that um those that know how to work with containers that uh they they might have
+um uh an extra Edge if you will for deploying things into production and we
+definitely need people that know how to do that so serving models I think um uh is is also very useful it's it's
+unbelievable how many ways you can serve a model just as web servers have servers
+uh llms have servers and I also assume that um um General models have servers
+um but I here's a a small list of things in fact I covered I don't think I covered P LM but there was a few other
+ones that I I covered um do you have to deal with uh serving models uh very often or uh uh what what does serving
+models look like for you Rola yeah so when you when you put a model out for usage people have to we call it
+inference or survey you have to put it on a machine for people to Ping that machine and and get their answers and
+but we tend to do a lot of things native to AWS so you can do that through Sage maker and Bedrock quite nicely so um but
+yeah if if you want to put it off the out of the cloud or use your own Solutions then yes but the main point is
+to actually serve the model right that's how you make it public and and usable yeah and I think I think with all
+major providers with with their specific uh ml platforms that they have their own their own uh inference engines or
+whatever you want to call them and I remember the one for sage maker uh yeah these ones these ones are really interesting as well Ray I I really stood
+out to me because it allows you to do things distributed um so I didn't realize that a lot of these things were
+um that only serve on a single machine and you have to in do something like Ray to take BLM and then spread it across
+machines which was really interesting uh there's model optimization um so I have a few here a few things here listed um
+stuff keeps shifting around here there's another one here I don't know think I covered it but again merging stuff but it was called like webn or
+something webn or something I can't remember what was called but it was a Microsoft project um and so that stuff's
+changing all the time but one thing that I I thought that might be really important is understanding the underlying uh uh Hardware um I think
+that um we really don't know what direction uh the Gen at least I don't
+know maybe R you know but the the the direction of of what it looks like to
+build a workload right and and what do you need to do that like uh because I know there's different levels of of
+models and inference and so I in my mind I think of it as like lightweight medium and heavyduty uh inference and training
+and so when I say that I mean like if I have a a computer like a modern computer
+and it can run a uh let's say a seven billion parameter model uh that's like a
+light that could be a light workload something that that is feasible that I could run or something that could end up on my phone one day and so I think okay
+what does that do for the end end business or customer if now they can run
+this size of model locally right like and you and you have this one Capital
+cost of like a TH or $machine and now you can build a workload that's that's scoped only for your office and
+is that a benefit to anybody and so because the stuff becomes is becoming more and more possible to run on uh on
+our devices and stuff like that I keep thinking well we need to know a little bit more about this right um uh but I
+don't know if you have any thoughts about uh the hardware side of it or I mean the hardware side is interesting
+because these models are so large that they push the limit of what we know about Hardware right so we can we're
+going to talk a little bit about model sizes and what that means for running them and and so understanding
+how these models have pushed our need for custommade chips and things like
+that is fairly interesting and um and like you said having Edge um compatible
+or Edge optimized models can change applications in in our world as we know
+it and I think we've seen we saw a lot of different phones this year with their main catch being that AI now runs on
+your phone right so Edge um gen on edge is is predicted
+to be a very very lucrative and big Trend well it it'll be very interesting
+to to to see what happens and just the other thing is just understanding how much resources these things take because
+when you see or you can uh kind of think about how much it takes takes and then you might ask like how is this
+sustainable and what's going to happen to some of these uh services that are out there and how are they going to make a profit um and you know if I do invest
+my time and effort should I go with this or should I go with something that is more feasible that I can run on at this
+size and so uh it's really hard to say I was talking to one of my friends and I'm sure they're going to be really interested in the boot camp um because
+they're that's that's they're really excited for the boot camp and specifically the hardware side and and they wanted to go and spend a bunch of
+money because they wanted to build a home lab because they don't want to get the the the rug pulled on them so to
+speak that the price is going to go really high and now they have this uh service that becomes like essential for
+their for their dailies and so um they're trying to invest in that so I thought that that was an important inclusion of it whether I did a good job
+on that is is up to the folks that are watching but hopefully uh it is good then we're getting into more advanced
+territory and basically everything below this line I mean Onyx probably is below this line too but everything below this
+line is more I would describe as Advanced Techniques um though to be fair if you're going to be deploying models
+you're probably going to want to have evaluations and guard rails and things like that but I don't know I think all
+this stuff is um and maybe this is the stuff that I didn't get to cover much in detail this is probably where um I've
+done the the the poorest job in in this this course but maybe that should be its own course because all these things are
+uh very involved at least I think they are um but uh do you think that uh folks
+that are becoming Engineers or or maybe not AI Engineers but they're picking up these generative AI skills for their
+companies do they need to learn super fine tuning like know how to do it or just uh like actually be able to do it
+or just know of it um I think knowing of it is always a
+good thing I think it depends on the field you're in if you are in a general field then these models are advancing
+fast enough that you might not have to do it on your own but if you're in a uh Niche field where the model
+needs to be fine-tuned on your specific field of data then probably you need to
+know but if you're in a general company general use case scenario just knowing
+it is exists is probably enough at this point I think the only thing that might be missing from this is all the general
+data skills that you need and um uh I guess I just maybe it needs its own data
+primer I think I might have put some data in the course I think I had some data data content there but I don't have any data specific video saying like this
+is how you prepare data for for ML models or llm models um how important is
+data to your models does it matter the data that you put in your models you're asking me how important data is forl
+models is that your question I know is it like well I'm just saying like well I'm just saying like imagine you wanted
+you have something you're like oh I want to train a model and I wanted to do something is lines good enough like
+how much how much time do you need to spend on data comparing comparative to
+uh comparative to actually um engineering llm
+Solutions so um I think let's start with
+regular uh ml before llm data is the bread and butter of machine learning
+right if the model learns from data um and then and so the data has to be there
+it has to be of good enough quality and it has to be um pretty consistent then
+and so that the model learns um from it now in terms of llm specifically it's
+less of an issue on you it's not an it is an issue for the model of course because it's still learning it's less of
+an issue on you because the model provider of that foundational model has done all the work and unless you need to
+fine-tune it or change anything about it or make it more uh you know for your
+field you don't need to worry about it right because it fine-tuning llms is
+more a privilege than um not everybody can do it uh how much data are these uh
+things trained on well in the in the words of Yun who is one of the pioneers
+of uh deep learning and machine learning um it take years for me and you
+to read That's how much data these things get to see before they become useful
+uh so can you and I sit down and curate a data set
+tomorrow maybe if we commit a few months to it but it's not it's not for the
+faint of heart I I I kind of Wonder like with data sets at large how do they know
+what's good and bad data when they have to consume that much data or I guess it just kind of evens out eh no well that's
+the thing is is we're seeing all sorts of things and we see and and we see biases a lot of the data is also scraped
+off the internet right there's biases in them we're seeing these models being biased they they are perpetuating social
+bias because these days the sets are not necessarily cleaned it's it's also really important to know what data sets
+the models have been trained on I think I was looking at some of the Google models I can't remember which one but
+it's something to the tune of % of the data is from social media right like that's thing that's not good that's not
+good right there not good at all curate social media data there's nobody who
+there's biases in social media data there's no accuracy so what data and and that's the important part for example
+between open source versus open weight models is that there's more transparency
+over the data that the model has seen um and so if you have a chance to look at
+what percentage of uh social media data what percentage of literature what
+percentage of of Science and like whatever the breakdown of the data content that the model has seen will
+give you a better understanding of that what what I what that model looks like
+right uh it's like it's like looking at somebody and saying did this person go to college or they they spend years
+on social media that could be a model right depending on what sources it saw yeah I I just think of the movie uh and
+for those that have not seen it uh you might want to see it there's a movie called idiocracy uh where um it's oh R
+do you know the movie my husband likes that movie there's a there's a really good line in there I always forget it's
+uh it's Bravo or bra it's the the quench you anyway it's the product that's in
+the the movie but uh yeah it's a bit scary to think like that they're scraping social media data but even even
+um again I think there's a lot of data it's just it's just it's interesting to me but anyway I just wanted to show
+people the road map to give an idea of of the scope of it um hopefully that gives uh people an idea of the
+boundaries or or scope of Genera AI this stuff can be a lot more complicated so I did my best to um simplify it and break
+it down um but uh in reality if this was if this was graphed properly things
+would be all interconnected all over the place um and and and I made it look like
+a journey through one step whereas it's really all over the place uh or if anyone's ever played the the video game
+p the Exile um which has like a skill tree um there's the pth to Exile skill
+tree I feel like it would look more more like something like that if I click into here and it's just all over the place
+that's kind of what geni um yeah here it is you go here and it's just it goes everywhere right and so I feel that if
+we did it like that it would look like that and people would be like I'm done but um I think that uh this is a a fair
+compromise here uh thank you Rola for helping us here in the road map uh for folks that are watching Rola is going to
+show up in a few other videos here uh and um yeah that's about it (53:04)
+
+https://genai.cloudprojectbootcamp.com/booth/freecodecamp
+
+wanted to point out that there are some areas that I wasn't able to fully record um just because of time constraints but
+also there's just other really good resources out there that you can utilize um to fill any gaps that you need before
+the Boot Camp starts or to uh make sure that you're successful if you're trying to get the certification for the uh the
+Gen Essentials course uh so I've compiled a list along with free camp at gen. cloudro bootcamp.com boo forre Camp
+of a bunch of resources and we probably will keep adding to this list of things that you could utilize um uh uh utilize
+to fill in those gaps so for example fine tuning was something I didn't get to do a whole lot about if you go over
+to here you can see that there are ones on fine tuning right uh or uh you know
+Google's offering I didn't get to do a whole lot about but there's tons of things about here with the Google offering some of these are my videos as
+well and so you know I'm just suggesting you to uh take whatever you can to
+prepare um and that list is here at the gen. cloudro bootcamp.com boooth slf
+freeco Camp so there you [Music]
+go hey this is Andrew Brown and we are taking a look at the definition of what is artificial intelligence and we really
+wanted to put this against uh the terms of machine learning deep learning and generative AI so that it's very clear
+what the differences are often people just say AI when they mean ml or deep learning so understand that um these
+terms are uh not used correctly often but people generally will understand
+what you're trying to say so it's not a big deal if you use them out of turn but let's make sure that we know what they are let's so let's first take a look
+here at artificial intelligence also known as AI these are machines that perform jobs that mimic human behavior
+okay that's the key thing here is that they are human like or doing tasks that
+you'd expect a human to do um and that is clearly a very broad term of what is
+AI and so you can see why a lot of things are attributed to being AI then you have machine learning and machine
+learning initialized as ml is machines that get better at a task without
+explicit programming now now of course we have to code a machine learning model
+but once we have that model and we pass things into it it's able to complete its task with its very complex algorithms um
+so you could also just think of it as an uh it's a a a special algorithm to perform a task that would negate you the
+negate you having to do calculations or programming or things like that then we have what is deep learning and when we
+think of a lot of the AI stuff we're usually think of deep learning because it's these machines that have an
+artificial neural network inspired by the human brain to solve complex
+problems so you probably have this uh you probably seen a graphic of it of like these nodes and they're interconnected and they go through
+layers that's deep learning a lot of people call that machine learning or AI but no that's that's the L then we have
+gen so gen which is more of a u marketing term but generative AI is a
+specialized subset of AI that generates out uh content such as images video text
+and audio now I don't have it in the graphic on the left because it's hard to say where does it go does it go here
+right because it is a subset of AI but technically um gen often utilizes deep
+learning because when we think of it and my Line's not dry here today but um when
+we think of it there we go there's the line is that a lot of gen techniques like large language models or um or um
+Vision models things like that are utilizing neural networks so it is deep learning
+[Music] okay all right so I know we keep talking
+about what is AI what is Gen AI but we're going to cover it again just so that it becomes more clear from
+different perspectives um so let's talk about what is artificial intelligence so
+AI is computer systems that perform tasks typically requiring human
+intelligence um so these include things like problem solving decision making
+understanding natural language recognizing speech and images and an ai's goal is to interpret analyze and
+respond to human actions it's there to simulate human intelligence in machines
+when we use the word simulate we're talking about mimics aspects resembles behaviors but what we're not talking
+about is emulation which is replicating exact processes and mechanisms as if you
+created literally a virtual human brain that's what emulation would be um so AI
+applications are vast and include areas such as expert systems natural language
+processing also known as NLP speech recognition robotics uh and more AI is
+using various Industries for tasks such as uh we're talking about business to Consumer so think of a customer service
+chatbot if we're looking at e-commerce think of a recommendation system if we're talking about the Auto industry uh
+maybe we're looking at a atomous Vehicles if it's medical then medical diagnosis there's a lot of applications
+for AI but it's a broad application for all sorts of things now let's take a
+look at generative AI so generative AI uh often initialized as geni or or said
+as geni is a subset of AI that focuses on creating new content or data that is
+novel and realistic it can interpret or analyze data but also generate new data
+itself it often uh yeah so like types of content produces would be text images music speech and other forms of media it
+often involves Advanced machine learning techniques uh so it could be using things like Gans it could be using vae
+so variational Auto encoders um a lot of current llms use the Transformer
+architecture so if you're using um chat GPT or Claud Sonet or any of the popular
+ones they're basically all Transformer architectures uh gener I has multiple
+modalities and when we say modalities it's like think about your your senses you have touch taste hearing smell so
+modalities are the kinds of content or or um senses that a model has so we have
+Vision so realistic images and videos text generating humanlike text audio composing music molecular which is more
+of an interesting one so drug Discovery via geomic data and uh I want to make it
+clear again we're talking about large language models but llms large language models will generate out humanlike text
+and is a subset of gen it's just one modality of the many modalities um but
+it's often conflated as being AI or gen AI just because it's the most popular
+and In Demand right now and the most developed so just make sure that you understand that gen and AI is not all
+about large language model it's just one modality one application of of the broad
+sense of AI and gen now let's just make sure we have a side by-side comparison
+uh and then I'm sure after this you'll definitely know uh definitively the difference between Ai and geni so in
+terms of functionality AI focuses on understanding and decision making whereas geni is about creating new and
+original outputs for data handling AI analyzes and makes decisions based on
+existing data geni uses existing data to generate new and unseen outputs in terms
+of applications AI spans across various sectors including data analysis
+automation NLP and Healthcare where gen and yes I see the spelling mistake uh
+it's creative and Innovative focusing on content creation synthetic data generation defix and design so there you
+[Music] go let's talk talk about Jupiter so
+Jupiter notebook is a web-based application for authoring documents that combin live code narrative text
+equations and visualizations and before it was called jupyter notebook it was known as I IPython notebook and jupyter
+notebooks were overhauled and then turned into an ID called Jupiter lab which we'll talk about here in a moment
+but you generally want to open notebooks in Labs um and the leg the Legacy
+web-based interface is known as Jupiter classic notebook and to be honest
+I get confused between Jupiter lab and classic I think most things that use
+these days are Jupiter lab um but the confusion is because we just call them
+notebooks even though Jupiter classic notebook is the not note the uh the older one and the newer one is Jupiter
+Labs let's go take a look at jupyter Labs so jupyter lab is the next Generation webbased user interface it
+has all the similar features as the classic jup notebook in a flexible and more powerful use interface so it has
+notebooks terminals text editor file browser uh Rich outputs and the way you
+I think that you know that you're using Jupiter lab is that will have this uh these tabs here on the side and a bunch
+of functionality so Jupiter lab will eventually replace the classic jupyter notebook and that's kind of true because
+um but not fully because in some places I do come across classic notebooks launching them up um but for the most
+part functionally it has been replaced then we have Jupiter Hub so jupyter Hub is a server to run jupyter labs for
+multiple users it's intended for a class of students a corporate data science group scientific research groups and so
+it has some components uh underneath you will come across notebook like experiences that are like Jupiter Labs
+so some companies will um extend the functionality of it one example is Sage
+maker uh Studio Classic for whatever reason adab us um spent all this time
+creating extensions and extending Jupiter lab and then they decided uh no we're not going to have extensions
+anymore and we're just going to use the vanilla version um but uh there's also things like vs code that has notebooks
+or code lab that have notebooks and vs code is like its own kind of notebook
+thing it's not juper Labs but it's jupit lab compatible so just understand that you'll come across things that are
+notebooks that look like Jupiter lab but they're not necessarily Jupiter lab okay [Music]
+let's take a look at natural language processing also known as NLP and in machine learning it's a technique that
+can understand the context of a corpus a corpus is a body of related text the
+text that you are working with and NLP intersects with computer science and
+Linguistics so if you know a lot about the the nature of uh spoken and written
+language then uh computer science here is going to meet in the middle here so that we can um make sense of it using
+algorithms so NLP enables us to do things like analyze and interpret text within documents emails and messages
+interpret or contextualize spoken texts like sentiment analysis synthesize speech uh such as using a voice
+assistant talking to you automatically translate spoken or written phrases and sentences between languages in uh
+interpret spoken or written commands and determine appropriate actions another thing you'll hear a lot is language understanding which is supposed to be
+it's a it's more like a specialized subset of NLP um uh that just goes
+farther to understand uh more traditional older ways of doing NLP but uh anyway what I'll do is we'll just
+take a look at this um very simple flowchart to give you some idea of
+things that are related with an NLP this is mostly just to get you exposed to some terms it's not important to
+remember what these are and I can't even describe them off the top of my head um but again just you exposure to NLP terms
+so that when you see them later you'll go look up and be like I remember seeing that term here so here we have like text
+wrangling pre-processing language understanding so structure and syntax processing functionality which is what
+the NLP uh does for you in the end but text text R pre-processing is where you are preparing uh text to be uh put into
+possibly um a machine learning model or maybe you're using it for um some kind of analysis or something like that and
+so this is basically taking text and um formatting it changing it and so what
+could we be doing here well we could be doing conversions maybe we're lower casing things maybe we're upper casing
+things um maybe we're turning contractions into their full forms or
+vice versa sanitation this is where you are maybe stripping out HTML or special
+characters or you are removing stop wordss when uh you have stop wordss later on in your ml models tokenization
+which is converting um the text into uh Vector embeddings we have stemming okay
+we have uh lonization so there's a lot of things here but you can see it's mostly just like formatting the text to
+be utilized for something else we have language understanding so these are processes to make sense of the text so
+part of speech tagging so is this an adjective is this a noun things like that chunking how can we uh break up the
+text and then work with those chunks later on down the road so that it still makes sense dependency parsing so you
+know which word relies on other words and what relationships do they have to other ones uh
+consti consu parsing very hard for word for me to say but like imagine a um a a
+tra tra green and so like you know a noun has an adjective under it which has
+another thing under it you look up if you look it up and go to Google Images you'll you'll know what I'm talking about then we have processing
+functionality what are we using NLP so we have name entity recognition this is is where you have a body of text and
+it's highlighting uh important words like maybe important nouns that it thinks you you care about or things like
+that or personally identifiable information we' got engrams sentiment analysis is this text positive negative
+happy sad information extraction what are we trying to get out of a large body of text um same thing with information
+retrieval questioning and answering topic modeling so you know again not super important to know these in depth
+right now but the things that are important we will see these terms again um and you'll know what they are then so
+don't worry about trying to memorize this now but just get that exposure to NLP terms
+[Music] okay hey this is angrew brown and we're
+looking at the concept of a regression and this is a process of finding a function to correlate a label data set
+into a continuous variable or number uh so imagine we need to predict a variable in the future such as the weather what
+is it going to be next week and so the idea is that you're going to plot your data onto a graph or vector space our
+dots are represented as vectors um and we're going to draw a line through it which we call a regression line and the
+point of the regression line is that is our prediction so if this is going over
+time based on the temperature um you know uh that is how we are figuring out
+in the future what things are going to be so the distance of a vector from the
+regression line going to just get out a different colored pen tool other than red so maybe s and so imagine this dot
+here to the line that's what we're going to call an error because the idea is that um things that are closer to the
+line is the prediction and things that are farther away from the line are an error from the line so hopefully that
+makes sense there are different regression algorithms used uh uh that can uh that we use to predict future
+variables so we have mean squared error uh root mean squ error mean absolute
+error and So based on the algorithm that you use to draw your line that's going
+to change um the prediction [Music]
+okay let's take a look at classification this is the process of finding a function to divide a label data set into
+classes or categories so the idea here is we're going to predict a category to
+apply to the inputed data so will it rain next Saturday is it going to be
+sunny or is it going to be raining so the idea is we have our data we're plotting it on a graph but we're drawing
+a classification line that divides the data set okay and the idea is that if it
+falls on one side then it's sunny it falls on the other side then it's rainy
+and so again if you have a different type of algorithm that's the thing that's doing the division um it's going
+to have different results you have a a logistic regression a decision tree
+random Forest you can use a neural network you can use a a a name AV v b I
+always say that wrong so I do apologize or you can use KNN or you can use a support Vector machine at or svm so just
+understand that there could be more algorithms of this but these are the common ones and you know if you want to learn more about how these different
+algorithms will change just look up on the Internet uh what that would look like and there's definitely
+visualizations out there [Music]
+okay let's talk about clustering this is the process of grouping unlabeled data based on similarities and differences
+the key word here is unlabeled when we looked at uh um classification that was
+labeled data so the idea here is that we're grouping based on similar user differences so imagine that this
+grouping of dots that are close together we determined that that is Windows and this uh group of dots are Mac computers
+and just like classification progression you have different algorithms are going to give you different results and the
+reason why I show you these algorithm names is because when you have to do classification regression or uh
+clustering uh you're going to see these names because you're have to choose what algorithm you want to utilize right now
+it's not so important to uh know them but when they are important we will look at them uh in more detail(1:11:53)
+
+Generative AI for Developers – Comprehensive Course
+https://github.com/entbappy/Generative-AI-Mastery-Resources
+
+CUDA Programming Course – High-Performance Computing with GPUs
+37:43 - Linux setup as well
+
+RAG Fundamentals and Advanced Techniques – Full Course
+https://github.com/pdichone/rag-intro-chat-with-docs
+https://github.com/pdichone/advanced-rag-techniques
+
+
+Create a Large Language Model from Scratch with Python – Tutorial
+
+
+
