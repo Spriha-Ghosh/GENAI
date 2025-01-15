@@ -1,0 +1,289 @@
+Org Docx
+Why Large Language Models Hallucinate
+
+I'm going to state three facts.
+Your challenge is to tell me how they're related; they're all space in aviation theme, but that's not it.
+So here we go! Number one-- the distance from the Earth to the Moon is million kilometers.
+Number two-- before I worked at IBM, I worked at a major Australian airline.
+And number three-- the James Webb Telescope took the very first pictures of an exoplanet outside of our solar system.
+What's the common thread?
+Well, the answer is that all three "facts" are an example of an hallucination of a large language model, otherwise known as an LLM.
+Things like chatGPT and Bing chat.
+million K, that's the distance to Mars, not the moon.
+It's my brother that works at the airline, not me.
+And infamously, at the announcement of Google's LLM, Bard, it hallucinated about the Webb telescope.
+The first picture of an exoplanet it was actually taken in 
+Now, while large language models can generate fluent and coherent text on various topics and domains,
+they are also prone to just "make stuff up". Plausible sounding nonsense! So let's discuss, first of all, what a hallucination is.
+We'll discuss why they happen.
+And we'll take some steps to describe how you can minimize hallucinations with LLMs.
+Now hallucinations are outputs of LLMs that deviate from facts or contextual logic,
+and they can range from minor inconsistencies to completely fabricated or contradictory statements.
+And we can categorize hallucinations across different levels of granularity.
+Now, at the lowest level of granularity we could consider sentence contradiction.
+This is really the simplest type, and this is where an LLM generates a sentence that contradicts one of the previous sentences.
+So "the sky is blue today."
+"The sky is green today." Another example would be prompt contradiction.
+And this is where the generated sentence contradicts with the prompt that was used to generate it.
+So if I ask an LLM to write a positive review of a restaurant and its returns, "the food was terrible and the service was rude,"
+ah, that would be in direct contradiction to what I asked.
+Now, we already gave some examples of another type here, which is a factual contradictions.
+And these factual contradictions, or factual error hallucinations, are really just that-- absolutely nailed on facts that they got wrong.
+Barack Obama was the first president of the United States-- something like that.
+And then there are also nonsensical or otherwise irrelevant kind of information based hallucinations
+where it just puts in something that really has no place being there. Like "The capital of France is Paris."
+"Paris is also the name of a famous singer." Okay, umm, thanks?
+Now with the question of what LLMs hallucinations are answered, we really need to answer the question of why.
+And it's not an easy one to answer,
+because the way that they derive their output is something of a black box, even to the engineers of the LLM itself.
+But there are a number of common causes.
+So let's take a look at a few of those.
+One of those is a data quality.
+Now LLMs are trained on a large corpora of text that may contain noise, errors, biases or inconsistencies.
+For example, some LLMs were trained by scraping all of Wikipedia and all of Reddit.
+It is everything on Reddit % accurate?
+Well, look, even if it was even if the training data was entirely reliable,
+that data may not cover all of the possible topics or domains the LLMs are expected to generate content about.
+So LLMs may generalize from data without being able to verify its accuracy or relevance.
+And sometimes it just gets it wrong.
+As LLM reasoning capabilities improve, hallucinations tend to decline.
+Now, another reason why hallucinations can happen is based upon the generation method.
+Now, LLMs use various methods and objectives to generate text such as beam search,
+sampling, maximum likelihood estimation, or reinforcement learning. And these methods and these objectives may introduce biases
+and tradeoffs between things like fluency and diversity, between coherence and creativity, or between accuracy and novelty.
+So, for example, beam search may favor high probability, but generic words over low probability, but specific words.
+And another common cause for hallucinations is input context.
+And this is one we can do something directly about as users.
+Now, here, context refers to the information that is given to the model as an input prompt.
+Context can help guide the model to produce the relevant and accurate outputs,
+but it can also confuse or mislead the model if it's unclear or if it's inconsistent or if it's contradictory.
+So, for example, if I ask an LLM chat bot, "Can cats speak English?"
+I would expect the answer "No, and do you need to sit down for a moment?".
+But perhaps I just forgotten to include a crucial little bit of information, a bit of context that this conversation thread
+is talking about the Garfield cartoon strip, in which case the LLM should have answered,
+"Yes, cats can speak English and that cat is probably going to ask for second helpings of lasagna."
+Context is important, and if we don't tell it we're looking for generated text suitable for an academic essay or a creative writing exercise,
+we can't expect it to respond within that context.
+Which brings us nicely to the third and final part-- what can we do to reduce hallucinations in our own conversations with LLMs?
+So, yep, one thing we can certainly do is provide clear and specific prompts to the system.
+Now, the more precise and the more detailed the input prompt,
+the more likely the LLM will generate relevant and, most importantly, accurate outputs.
+So, for example, instead of asking "What happened in World War Two?" That's not very clear.
+It's not very specific.
+We could say, "Can you summarize the major events of World War Two,
+including the key countries involved in the primary causes of the conflict?"
+Something like that that really gets at what we are trying to pull from this.
+That gives the model a better understanding of what information is expected in the response.
+We can employ something called active mitigation strategies.
+And what these are are using some of the settings of the LLMs,
+such as settings that control the parameters of how the LLM works during generation.
+A good example of that is the temperature parameter, which can control the randomness of the output.
+So a lower temperature will produce more conservative and focused responses,
+while a higher temperature will generate more diverse and creative ones.
+But the higher the temperature, the more opportunity for hallucination.
+And then one more is multi-shot prompting.
+And in contrast to single shot prompting where we only gave one prompt,
+multi-shot prompting provides the LLM with multiple examples of the desired output format or context,
+and that essentially primes the model, giving a clearer understanding of the user's expectations.
+By presenting the LLM with several examples, we help it recognize the pattern or the context more effectively,
+and this can be particularly useful in tasks that require a specific output format.
+So, generating code, writing poetry or answering questions in a specific style.
+So while large language models may sometimes hallucinate and take us on an unexpected journey, million kilometers off target,
+understanding the causes and employing the strategies to minimize those causes
+really allows us to harness the true potential of these models and reduce hallucinations.
+Although I did kind of enjoy reading about my fictional career down under.
+If you have any questions, please drop us a line below.
+And if you want to see more videos like this in the future, please like and subscribe.
+Thanks for watching.
+
+Transformers, explained: Understand the model behind GPT, BERT, and T5
+-The neat thing about working in ML
+is, every few years, somebody invents something crazy
+that makes you totally reconsider what's possible,
+like models that can play Go or generate hyper-realistic faces.
+Today, the mind-blowing discovery rocking everyone's world
+is a type of neural network called a transformer.
+Transformers are models that can translate text, write poems and op-eds,
+and generate computer code.
+These will used in biology to solve the protein folding problem.
+Transformers are like a magical machine learning hammer
+that used to make every problem into a nail.
+If you've heard of the trendy new ML models, BERT or GPT-or T-
+all of these models are based on transformers.
+If you want to stay hip in machine learning, especially in natural language processing,
+you must know about the transformer.
+In this video, I'll tell you about what transformers are,
+how they work and why they've been so impactful.
+Let's get to it.
+What are transformers?
+So what is a transformer?
+It's a type of neural network architecture.
+To recap, neural networks are a very effective type of model
+for analyzing complicated data types like images, videos, audio and text.
+Different neural networks are optimized for different data types.
+Like, if you're analyzing images,
+you typically use a convolutional neural network
+which is designed to vaguely mimic the way the human brain processes vision.
+Since around neural networks have been really good
+at solving vision tasks like identifying objects in photos.
+But, for a long time,
+there wasn't a comparably good option for analyzing language,
+whether for translation or text summarization or text generation.
+This is a problem because language is the main way humans communicate.
+Until transformers came around, the way we use deep learning to understand text
+was with a type of model called a recurrent neural network, or an RNN,
+that looks something like this.
+Say you wanted to translate a sentence from English to French.
+An RNN would take as input an English sentence
+and process the words one at a time
+and then sequentially spit out their French counterparts.
+The key word here is "sequential."
+In language, the order of words matters, and you can't just shuffle them around.
+For example, the sentence "Jane went looking for trouble"
+means something very different than "Trouble went looking for Jane."
+Any model dealing with language
+has to capture word order and recurrent neural networks do this
+by looking at one word at a time sequentially.
+But RNNs had a lot of problems.
+First, they never really did well at handling large sequences of text
+like long paragraphs or essays.
+By time the end of a paragraph is analyzed, they'd forget the beginning of it.
+And, even worse, RNNs were pretty hard to train.
+Because they process words sequentially, they couldn't parallelize well,
+meaning you couldn't speed them up by throwing lots of GPUs at them.
+With a model that's slow to train, you can't train it on that much data.
+This is where the transformer changed everything.
+They were a model developed in 
+by Google researchers and the University of Toronto.
+They were initially designed for translation, but unlike RNNs,
+you could really efficiently parallelize transformers.
+That meant, with the right hardware, you can train really big models.
+How big?
+Really big.
+Remember GPT-that model that writes poetry and code and has conversations?
+That was trained on almost terabytes of text data,
+including like almost the entire public web.
+If you remember anything about transformers, let it be this:
+combine a model that scales really well with a huge dataset,
+the results will probably blow your mind.
+How do transformers work?
+How do these things actually work?
+Based on the diagram, it should be pretty clear!
+Or maybe not.
+Actually, it's simpler than you'd think.
+There are main innovations making this model work so well:
+Positional encodings, and attention,
+and specifically a type of attention called self-attention.
+Let's talk about the first one: positional encodings.
+Say we're translating text from English to French.
+Positional encodings is that, instead of looking at words sequentially,
+you take each word
+and before feeding it to a neural network, you slap a number on it--
+depending on what number the word is in the sentence.
+In other words, store information about word order in the data
+rather than in the structure of the network.
+Then, as you train the network on text data,
+it learns how to interpret those positional encodings.
+In this way, the neural network learns the importance of word order from the data.
+This is a high-level understanding of positional encodings,
+but it's an innovation that really helped make transformers easier to train than RNNs.
+The next innovation in this paper is a concept called attention,
+which you see used often in ML these days.
+In fact, the title of the original transformer paper
+is "Attention Is All You Need."
+"The agreement on the European Economic Area
+was signed in August "
+Did you know that?
+That's the example sentence in the original paper,
+and remember the original transformer was designed for translation.
+Now, imagine trying to translate that sentence to French.
+One bad way to translate text is to try to translate each word one for one.
+In French, some words are flipped
+like, in the French translation, "European" comes before "economic."
+Plus, French is a language with gendered agreement between words.
+So the word "européenne" needs to be in the feminine form
+to match with "la zone."
+The attention mechanism is a neural network structure
+allows a text model to look at every single word in the original sentence
+when making a decision about translating a word in the output sentence.
+Here's a nice visualization from that paper
+that shows what words in the input sentence the model is attending to
+when it makes predictions about a word for the output sentence.
+So, when the model outputs the word "européenne,"
+it's looking at the input words "European" and "economic,"
+you can think of this diagram as a sort of heat map for attention
+and how does the model know which words it should be attending to?
+It's something that's learned over time from data.
+By seeing many examples of French and English sentence pairs,
+the model learns about gender, word order, and plurality, and all the grammatical stuff.
+We talked about two key transformer innovations,
+positional encoding and attention,
+but actually attention had been invented before this paper.
+The real innovation in transformers was something called self-attention.
+A twist on traditional attention.
+The type of attention we talked about has to do with aligning words in languages,
+really important for translation,
+but what if you're just trying to understand the underlying meaning in language
+so that you can build a network that can do any number of language tasks.
+What's incredible about neural networks like transformers
+is that, as they analyze tons of text data,
+they begin to build up this internal representation
+or understanding of language automatically.
+They may learn, for example,
+that the words "programmer," "software engineer," and "software developer"
+are all synonymous.
+They may also naturally learn the rules of grammar, gender and tense, and so on.
+The better the internal representation of language that's learned,
+the better it will be at any language task.
+It turns out attention can be an effective way
+to get a neural network to understand language
+if it's turned on the input text itself.
+Let me give you an example.
+Take these two sentences:
+"Server, can I have the check?"
+versus "Looks like I just crashed the server."
+The word "server" here means two very different things.
+I know that because I'm looking at the context of the surrounding words.
+Self-attention allows a neural network
+to understand a word in the context of the words around it.
+When a model processes "server" in the first sentence,
+it might be attending to the word "check"
+which helps it disambiguate from a human server versus a metal one.
+In the second sentence, the model may attend to the word "crashed"
+to determine this server is a machine.
+Self-attention can also help disambiguate words,
+recognize parts of speech, and even identify word tense.
+This, in a nutshell, is the value of self-attention.
+So, to summarize, transformers boil down to:
+positional encodings, attention, and self-attention.
+Of course, this is a -foot look at transformers.
+How are transformers used?
+But how are they actually useful?
+One of the most popular transformer-based models is called BERT,
+which was invented just around the time that I joined Google in 
+BERT was trained on a massive text corpus
+and has become this sort of general pocket knife for NLP
+that can be adapted to a bunch of different tasks
+like text summarization, question answering,
+classification, and finding similar sentences.
+It's used in Google Search to help understand search queries,
+and it powers a lot of Google Cloud's NLP tools,
+like Google Cloud AutoML Natural Language.
+BERT also proved that you could build very good models on unlabeled data,
+like text scraped from Wikipedia or Reddit.
+This is called semi-supervised learning, a big trend in machine learning now.
+GETTING STARTED WITH TRANSFORMERS
+So, if I've sold you on how cool transformers are,
+you may want to use them in your app.
+No problem.
+Tensorflow Hub is a great place to grab pre-trained transformer models like BERT.
+Getting started with transformers
+Download them for free in multiple languages and drop them straight into your app.
+You can also check out the popular Transformers Python Library
+built by Hugging Face,
+a favorite way of the community to train and use transformer models.
+For more transformer tips, check out my blog post link below,
+and thanks for watching!
+BUILD ANYTHING WITH GOOGLE. LINKS IN THE DESCRIPTION BELOW
+https://daleonai.com/transformers-explained
+https://www.tensorflow.org/text/tutorials/classify_text_with_bert
